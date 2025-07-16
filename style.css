@@ -16,14 +16,38 @@
    */
 
   /* gradient */
-  --bg-gradient-onyx: linear-gradient(to bottom right, hsl(240, 1%, 25%) 3%, hsl(0, 0%, 19%) 97%);
-  --bg-gradient-jet: linear-gradient(to bottom right, hsla(240, 1%, 18%, 0.251) 0%, hsla(240, 2%, 11%, 0) 100%),
+  --bg-gradient-onyx: linear-gradient(
+    to bottom right,
+    hsl(240, 1%, 25%) 3%,
+    hsl(0, 0%, 19%) 97%
+  );
+  --bg-gradient-jet: linear-gradient(
+      to bottom right,
+      hsla(240, 1%, 18%, 0.251) 0%,
+      hsla(240, 2%, 11%, 0) 100%
+    ),
     hsl(240, 2%, 13%);
-  --bg-gradient-yellow-1: linear-gradient(to bottom right, hsl(45, 100%, 71%) 0%, hsla(36, 100%, 69%, 0) 50%);
-  --bg-gradient-yellow-2: linear-gradient(135deg, hsla(45, 100%, 71%, 0.251) 0%, hsla(35, 100%, 68%, 0) 59.86%),
+  --bg-gradient-yellow-1: linear-gradient(
+    to bottom right,
+    hsl(45, 100%, 71%) 0%,
+    hsla(36, 100%, 69%, 0) 50%
+  );
+  --bg-gradient-yellow-2: linear-gradient(
+      135deg,
+      hsla(45, 100%, 71%, 0.251) 0%,
+      hsla(35, 100%, 68%, 0) 59.86%
+    ),
     hsl(240, 2%, 13%);
-  --border-gradient-onyx: linear-gradient(to bottom right, hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50%);
-  --text-gradient-yellow: linear-gradient(to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%));
+  --border-gradient-onyx: linear-gradient(
+    to bottom right,
+    hsl(0, 0%, 25%) 0%,
+    hsla(0, 0%, 25%, 0) 50%
+  );
+  --text-gradient-yellow: linear-gradient(
+    to right,
+    hsl(45, 100%, 72%),
+    hsl(35, 100%, 68%)
+  );
 
   /* solid */
   --jet: hsl(0, 0%, 22%);
@@ -78,10 +102,22 @@
 
 /* Light Mode Variables */
 [data-theme="light"] {
-  --bg-gradient-onyx: linear-gradient(to bottom right, hsl(0, 0%, 95%) 3%, hsl(0, 0%, 90%) 97%);
-  --bg-gradient-jet: linear-gradient(to bottom right, hsla(0, 0%, 98%, 0.8) 0%, hsla(0, 0%, 95%, 0) 100%),
+  --bg-gradient-onyx: linear-gradient(
+    to bottom right,
+    hsl(0, 0%, 95%) 3%,
+    hsl(0, 0%, 90%) 97%
+  );
+  --bg-gradient-jet: linear-gradient(
+      to bottom right,
+      hsla(0, 0%, 98%, 0.8) 0%,
+      hsla(0, 0%, 95%, 0) 100%
+    ),
     hsl(0, 0%, 96%);
-  --border-gradient-onyx: linear-gradient(to bottom right, hsl(0, 0%, 85%) 0%, hsla(0, 0%, 85%, 0) 50%);
+  --border-gradient-onyx: linear-gradient(
+    to bottom right,
+    hsl(0, 0%, 85%) 0%,
+    hsla(0, 0%, 85%, 0) 50%
+  );
 
   --jet: hsl(0, 0%, 85%);
   --onyx: hsl(0, 0%, 90%);
@@ -684,7 +720,11 @@ main {
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at center, rgba(255, 193, 7, 0.05) 0%, transparent 70%);
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 193, 7, 0.05) 0%,
+    transparent 70%
+  );
   pointer-events: none;
   z-index: 0;
 }
@@ -696,7 +736,12 @@ main {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(45, 45, 45, 0.3) 0%, rgba(30, 30, 30, 0.5) 50%, rgba(20, 20, 20, 0.7) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(45, 45, 45, 0.3) 0%,
+    rgba(30, 30, 30, 0.5) 50%,
+    rgba(20, 20, 20, 0.7) 100%
+  );
   border-radius: 15px;
   padding: 20px;
   box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -711,9 +756,7 @@ main {
   bottom: 15px;
   left: 50%;
   transform: translateX(-50%);
-  box-shadow:
-    0 6px 12px rgba(255, 107, 107, 0.4),
-    0 2px 4px rgba(0, 0, 0, 0.3),
+  box-shadow: 0 6px 12px rgba(255, 107, 107, 0.4), 0 2px 4px rgba(0, 0, 0, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2),
     inset 2px 2px 4px rgba(255, 255, 255, 0.1),
     0 0 0 2px rgba(255, 255, 255, 0.3); /* White outline for better visibility */
@@ -744,19 +787,15 @@ main {
   0%,
   100% {
     transform: scale(1);
-    box-shadow:
-      0 6px 12px rgba(255, 107, 107, 0.4),
-      0 2px 4px rgba(0, 0, 0, 0.3),
-      inset -2px -2px 4px rgba(0, 0, 0, 0.2),
+    box-shadow: 0 6px 12px rgba(255, 107, 107, 0.4),
+      0 2px 4px rgba(0, 0, 0, 0.3), inset -2px -2px 4px rgba(0, 0, 0, 0.2),
       inset 2px 2px 4px rgba(255, 255, 255, 0.1),
       0 0 0 2px rgba(255, 255, 255, 0.3);
   }
   50% {
     transform: scale(1.1);
-    box-shadow:
-      0 8px 16px rgba(255, 107, 107, 0.6),
-      0 4px 8px rgba(0, 0, 0, 0.4),
-      inset -2px -2px 4px rgba(0, 0, 0, 0.2),
+    box-shadow: 0 8px 16px rgba(255, 107, 107, 0.6),
+      0 4px 8px rgba(0, 0, 0, 0.4), inset -2px -2px 4px rgba(0, 0, 0, 0.2),
       inset 2px 2px 4px rgba(255, 255, 255, 0.1),
       0 0 0 3px rgba(255, 255, 255, 0.5);
   }
@@ -817,11 +856,19 @@ main {
 .cup-body {
   width: 70px;
   height: 90px;
-  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 25%, #f39c12 50%, #e67e22 75%, #d35400 100%);
+  background: linear-gradient(
+    135deg,
+    #ffd700 0%,
+    #ffed4e 25%,
+    #f39c12 50%,
+    #e67e22 75%,
+    #d35400 100%
+  );
   border-radius: 0 0 35px 35px;
   position: relative;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4), inset 0 2px 4px rgba(255, 255, 255, 0.3), inset 0 -2px 4px
-    rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4),
+    inset 0 2px 4px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.2);
   border: 2px solid rgba(255, 215, 0, 0.8);
 }
 
@@ -832,7 +879,12 @@ main {
   left: 8px;
   right: 8px;
   height: 60px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    transparent 50%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
   border-radius: 0 0 25px 25px;
   pointer-events: none;
 }
@@ -852,13 +904,21 @@ main {
 .cup-top {
   width: 80px;
   height: 12px;
-  background: linear-gradient(135deg, #ffed4e 0%, #ffd700 25%, #f39c12 50%, #e67e22 75%, #d35400 100%);
+  background: linear-gradient(
+    135deg,
+    #ffed4e 0%,
+    #ffd700 25%,
+    #f39c12 50%,
+    #e67e22 75%,
+    #d35400 100%
+  );
   border-radius: 40px;
   position: absolute;
   top: -6px;
   left: -5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), inset 0 2px 4px rgba(255, 255, 255, 0.4), inset 0 -1px 2px
-    rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3),
+    inset 0 2px 4px rgba(255, 255, 255, 0.4),
+    inset 0 -1px 2px rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(255, 215, 0, 0.9);
 }
 
@@ -869,7 +929,12 @@ main {
   left: 8px;
   right: 8px;
   height: 4px;
-  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.3) 50%, transparent 100%);
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.3) 50%,
+    transparent 100%
+  );
   border-radius: 20px;
 }
 
@@ -968,7 +1033,11 @@ main {
 }
 
 .game-btn {
-  background: linear-gradient(135deg, var(--orange-yellow-crayola), var(--vegas-gold));
+  background: linear-gradient(
+    135deg,
+    var(--orange-yellow-crayola),
+    var(--vegas-gold)
+  );
   color: var(--smoky-black);
   border: none;
   padding: 18px 36px;
@@ -980,7 +1049,8 @@ main {
   position: relative;
   z-index: 1;
   margin-bottom: 25px;
-  box-shadow: 0 8px 16px rgba(255, 193, 7, 0.3), inset 0 2px 4px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 16px rgba(255, 193, 7, 0.3),
+    inset 0 2px 4px rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -989,7 +1059,12 @@ main {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  background: linear-gradient(
+    135deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
   border-radius: inherit;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -997,7 +1072,8 @@ main {
 
 .game-btn:hover {
   transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 12px 24px rgba(255, 193, 7, 0.4), inset 0 2px 4px rgba(255, 255, 255, 0.4);
+  box-shadow: 0 12px 24px rgba(255, 193, 7, 0.4),
+    inset 0 2px 4px rgba(255, 255, 255, 0.4);
 }
 
 .game-btn:hover::before {
@@ -1881,7 +1957,8 @@ textarea.form-input::-webkit-resizer {
     border: 5px solid var(--smoky-black);
     background: hsla(0, 0%, 100%, 0.1);
     border-radius: 20px;
-    box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11), inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+    box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
+      inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
   }
 
   body::-webkit-scrollbar-thumb:hover {

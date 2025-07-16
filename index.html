@@ -1,507 +1,539 @@
 <!DOCTYPE html>
 <html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rasuljonov Hamidulloh</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rasuljonov Hamidulloh</title>
-
-  <!--
+    <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./img/favicon.svg"image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.svg"image/x-icon">
 
-  <!--
+    <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-  <!--
+    <!--
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
-  <!--
+  <body>
+    <!--
     - #MAIN
   -->
 
-  <main>
-
-    <!--
+    <main>
+      <!--
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              class="img-me"
+              src="./img/me.jpg"
+              alt="Rasuljonov Hamidulloh"
+              width="80"
+            />
+          </figure>
 
-      <div class="sidebar-info">
+          <div class="info-content">
+            <h3 class="name" title="Rasuljonov Hamidulloh">
+              Rasuljonov Hamidulloh
+            </h3>
 
-        <figure class="avatar-box">
-          <img class="img-me" src="./img/me.jpg" alt="Rasuljonov Hamidulloh" width="80">
-        </figure>
+            <p class="title">Web Dasturchi</p>
+          </div>
 
-        <div class="info-content">
-          <h3 class="name" title="Rasuljonov Hamidulloh">Rasuljonov
-             Hamidulloh</h3>
+          <button id="darkmode" class="info_more-btn" data-sidebar-btn>
+            <span>Kontaktlarni Ko'rsatish</span>
 
-          <p class="title">Web Dasturchi</p>
-        </div>
-
-        <button id="darkmode" class="info_more-btn" data-sidebar-btn>
-          <span>Kontaktlarni Ko'rsatish</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <!-- Theme Toggle -->
-        <div class="theme-toggle-container">
-          <button class="theme-toggle" id="theme-toggle">
-            <ion-icon name="sunny-outline" class="sun-icon"></ion-icon>
-            <ion-icon name="moon-outline" class="moon-icon"></ion-icon>
+            <ion-icon name="chevron-down"></ion-icon>
           </button>
         </div>
 
-        <div class="separator"></div>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-        <ul class="contacts-list">
+          <!-- Theme Toggle -->
+          <div class="theme-toggle-container">
+            <button class="theme-toggle" id="theme-toggle">
+              <ion-icon name="sunny-outline" class="sun-icon"></ion-icon>
+              <ion-icon name="moon-outline" class="moon-icon"></ion-icon>
+            </button>
+          </div>
 
-          <li class="contact-item">
+          <div class="separator"></div>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-              <a href="mailto:rasuljonov0367@icloud.com" class="contact-link">rasuljonov0367@icloud.com</a>
-            </div>
+                <a href="mailto:rasuljonov0367@icloud.com" class="contact-link"
+                  >rasuljonov0367@icloud.com</a
+                >
+              </div>
+            </li>
 
-          </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
 
-          <li class="contact-item">
+              <div class="contact-info">
+                <p class="contact-title">Telefon</p>
 
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
+                <a href="tel:+998930810367" class="contact-link"
+                  >+998-93-081-03-67</a
+                >
+              </div>
+            </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Telefon</p>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
 
-              <a href="tel:+998930810367" class="contact-link">+998-93-081-03-67</a>
-            </div>
+              <div class="contact-info">
+                <p class="contact-title">Tug'ilgan kun</p>
 
-          </li>
+                <time datetime="1990-06-23">10 Sentabr, 2007</time>
+              </div>
+            </li>
 
-          <li class="contact-item">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
 
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
+              <div class="contact-info">
+                <p class="contact-title">Manzil</p>
 
-            <div class="contact-info">
-              <p class="contact-title">Tug'ilgan kun</p>
+                <address>Oltiariq tumani, Farg'ona viloyati</address>
+              </div>
+            </li>
+          </ul>
 
-              <time datetime="1990-06-23">10 Sentabr, 2007</time>
-            </div>
+          <div class="separator"></div>
 
-          </li>
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
 
-          <li class="contact-item">
+            <li class="social-item">
+              <a href="https://t.me/rasuljonov_77" class="social-link">
+                <ion-icon name="paper-plane-outline"></ion-icon>
+              </a>
+            </li>
 
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/rasuljonov_7/"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
 
-            <div class="contact-info">
-              <p class="contact-title">Manzil</p>
-
-              <address> Oltiariq tumani, Farg'ona viloyati</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://t.me/rasuljonov_77" class="social-link">
-              <ion-icon name="paper-plane-outline"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/rasuljonov_7/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-    <!--
+      <!--
       - #main-content
     -->
 
-    <div class="main-content">
-
-      <!--
+      <div class="main-content">
+        <!--
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>
+                Men haqimda
+              </button>
+            </li>
 
-        <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link active" data-nav-link>Men haqimda</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Aloqa</button>
+            </li>
+          </ul>
+        </nav>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Aloqa</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-      <!--
+        <!--
         - #ABOUT
       -->
 
-      <article class="about active" data-page="men haqimda">
+        <article class="about active" data-page="men haqimda">
+          <header>
+            <h2 class="h2 article-title">Men haqimda</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Men haqimda</h2>
-        </header>
+          <section class="about-text">
+            <p>Har bir komponent – yechim, har bir sahifa – tajriba...</p>
 
-        <section class="about-text">
-          <p>
-            Har bir komponent – yechim, har bir sahifa – tajriba...
-          </p>
+            <p>
+              Men frontend yo'nalishida ishlaydigan dasturchiman. Asosan saytlar
+              va veb-ilovalar uchun foydalanuvchiga qulay va chiroyli
+              ko'rinishlar yarataman. HTML, CSS, JavaScript va React bilan
+              ishlayman. Har doim o'rganishga ochiqman va ishda aniqlik hamda
+              sifatga katta e'tibor beraman
+            </p>
+          </section>
 
-          <p>
-            Men frontend yo'nalishida ishlaydigan dasturchiman. Asosan saytlar va veb-ilovalar uchun foydalanuvchiga qulay va chiroyli ko'rinishlar yarataman. HTML, CSS, JavaScript va React bilan ishlayman. Har doim o'rganishga ochiqman va ishda aniqlik hamda sifatga katta e'tibor beraman
-          </p>
-
-         
-        </section>
-
-        <!--
+          <!--
           - service
         -->
 
-        <section class="service">
+          <section class="service">
+            <h3 class="h3 service-title">Nima bilan shug'ullanaman</h3>
 
-          <h3 class="h3 service-title">Nima bilan shug'ullanaman</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=40&h=40&fit=crop"
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
 
-          <ul class="service-list">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web dizayn</h4>
 
-            <li class="service-item">
+                  <p class="service-item-text">
+                    Professional darajada eng zamonaviy va yuqori sifatli dizayn
+                    yaratish.
+                  </p>
+                </div>
+              </li>
 
-              <div class="service-icon-box">
-                <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=40&h=40&fit=crop" alt="design icon" width="40">
-              </div>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=40&h=40&fit=crop"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web dizayn</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web dasturlash</h4>
 
-                <p class="service-item-text">
-                  Professional darajada eng zamonaviy va yuqori sifatli dizayn yaratish.
-                </p>
-              </div>
+                  <p class="service-item-text">
+                    Professional darajada yuqori sifatli saytlar yaratish.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
 
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=40&h=40&fit=crop" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web dasturlash</h4>
-
-                <p class="service-item-text">
-                  Professional darajada yuqori sifatli saytlar yaratish.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-        <!--
+          <!--
           - SHELL GAME
         -->
 
-        <section class="shell-game-section">
-          <h3 class="h3 service-title">Koptok va Idish O'yini</h3>
-          <p class="game-description">Qaysi idish ostida koptok yashiringanini toping!</p>
-          
-          <div class="shell-game-container">
-            <div class="game-area">
-              <div class="ball" id="ball"></div>
-              
-              <div class="cups-container">
-                <div class="cup" data-cup="0">
-                  <div class="cup-top"></div>
-                  <div class="cup-body"></div>
+          <section class="shell-game-section">
+            <h3 class="h3 service-title">Koptok va Idish O'yini</h3>
+            <p class="game-description">
+              Qaysi idish ostida koptok yashiringanini toping!
+            </p>
+
+            <div class="shell-game-container">
+              <div class="game-area">
+                <div class="ball" id="ball"></div>
+
+                <div class="cups-container">
+                  <div class="cup" data-cup="0">
+                    <div class="cup-top"></div>
+                    <div class="cup-body"></div>
+                  </div>
+                  <div class="cup" data-cup="1">
+                    <div class="cup-top"></div>
+                    <div class="cup-body"></div>
+                  </div>
+                  <div class="cup" data-cup="2">
+                    <div class="cup-top"></div>
+                    <div class="cup-body"></div>
+                  </div>
                 </div>
-                <div class="cup" data-cup="1">
-                  <div class="cup-top"></div>
-                  <div class="cup-body"></div>
-                </div>
-                <div class="cup" data-cup="2">
-                  <div class="cup-top"></div>
-                  <div class="cup-body"></div>
+              </div>
+
+              <div class="game-controls">
+                <button class="game-btn" id="startGame">
+                  O'yinni Boshlash
+                </button>
+                <div class="game-message" id="gameMessage"></div>
+                <div class="game-score">
+                  <span>Yutganlar: <span id="wins">0</span></span>
+                  <span>Jami o'yinlar: <span id="total">0</span></span>
                 </div>
               </div>
             </div>
-            
-            <div class="game-controls">
-              <button class="game-btn" id="startGame">O'yinni Boshlash</button>
-              <div class="game-message" id="gameMessage"></div>
-              <div class="game-score">
-                <span>Yutganlar: <span id="wins">0</span></span>
-                <span>Jami o'yinlar: <span id="total">0</span></span>
-              </div>
-            </div>
-          </div>
-        </section>
+          </section>
+        </article>
 
-      </article>
-
-      <!--
+        <!--
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>Barchasi</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web dizayn</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web dasturlash</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Kategoriyani tanlang</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>Barchasi</button>
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>Barchasi</button>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Web dizayn</button>
+              <li class="filter-item">
+                <button data-filter-btn>Web dizayn</button>
               </li>
 
-
-              <li class="select-item">
-                <button data-select-item>Web dasturlash</button>
+              <li class="filter-item">
+                <button data-filter-btn>Web dasturlash</button>
               </li>
-
             </ul>
 
-          </div>
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Kategoriyani tanlang
+                </div>
 
-          <ul class="project-list">
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
 
-            <li class="project-item active" data-filter-item data-category="web dasturlash">
-              <a href="https://registon072.netlify.app/#home" target="_blank">
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>Barchasi</button>
+                </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <li class="select-item">
+                  <button data-select-item>Web dizayn</button>
+                </li>
 
-                  <img style="height:193px;" src="./img/shop.png" alt="finance" loading="lazy">
-                </figure>
+                <li class="select-item">
+                  <button data-select-item>Web dasturlash</button>
+                </li>
+              </ul>
+            </div>
 
-                <h3 class="project-title">Dokon Boshqaruv Tizimi</h3>
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web dasturlash"
+              >
+                <a href="https://registon072.netlify.app/#home" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <p class="project-category">Web dasturlash</p>
+                    <img
+                      style="height: 193px"
+                      src="./img/shop.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
 
-              </a>
-            </li>
+                  <h3 class="project-title">Dokon Boshqaruv Tizimi</h3>
 
-            <li class="project-item active" data-filter-item data-category="web dasturlash">
-              <a href="https://countrymeee.netlify.app/" target="_blank">
+                  <p class="project-category">Web dasturlash</p>
+                </a>
+              </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web dasturlash"
+              >
+                <a href="https://countrymeee.netlify.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                  <img style="height:193px;" src="./img/flags.jpg" alt="orizon" loading="lazy">
-                </figure>
+                    <img
+                      style="height: 193px"
+                      src="./img/flags.jpg"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <h3 class="project-title">where do you live?</h3>
+                  <h3 class="project-title">where do you live?</h3>
 
-                <p class="project-category">Web dasturlash</p>
+                  <p class="project-category">Web dasturlash</p>
+                </a>
+              </li>
 
-              </a>
-            </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web dizayn"
+              >
+                <a href=" https://dizaynermee.netlify.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-            <li class="project-item active" data-filter-item data-category="web dizayn">
-              <a href=" https://dizaynermee.netlify.app/" target="_blank">
-               
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                    <img
+                      style="height: 193px"
+                      src="./img/dizayn.jpg"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                  <img style="height:193px;" src="./img/dizayn.jpg" alt="fundo" loading="lazy">
-                </figure>
+                  <h3 class="project-title">UX/UI</h3>
 
-                <h3 class="project-title">UX/UI</h3>
+                  <p class="project-category">Web dizayn</p>
+                </a>
+              </li>
 
-                <p class="project-category">Web dizayn</p>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ilovalar"
+              >
+                <a href="https://don-don-ziki-app.netlify.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-              </a>
-            </li>
+                    <img
+                      style="height: 193px"
+                      src="./img/don-don-ziki.jpg"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
 
-            <li class="project-item active" data-filter-item data-category="ilovalar">
-              <a href="https://don-don-ziki-app.netlify.app/" target="_blank">
+                  <h3 class="project-title">web o'yin</h3>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <p class="project-category">web dasturlash</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-                  <img style="height:193px;"  src="./img/don-don-ziki.jpg" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">web o'yin</h3>
-
-                <p class="project-category">web dasturlash</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-      <!--
+        <!--
         - #CONTACT
       -->
 
-      <article class="contact" data-page="aloqa">
+        <article class="contact" data-page="aloqa">
+          <header>
+            <h2 class="h2 article-title">Aloqa</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Aloqa</h2>
-        </header>
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d634.0744941660806!2d71.47559326957408!3d40.39091601965592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDIzJzI3LjMiTiA3McKwMjgnMzQuNSJF!5e1!3m2!1sru!2s!4v1752566662799!5m2!1sru!2s"
+                width="400"
+                height="300"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </figure>
+          </section>
 
-        <section class="mapbox" data-mapbox>
-          <figure>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d634.0744941660806!2d71.47559326957408!3d40.39091601965592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDIzJzI3LjMiTiA3McKwMjgnMzQuNSJF!5e1!3m2!1sru!2s!4v1752566662799!5m2!1sru!2s"
-              width="400" height="300" loading="lazy"referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </figure>
-        </section>
+          <section class="contact-form">
+            <h3 class="h3 form-title">Aloqa Formasi</h3>
 
-        <section class="contact-form">
+            <form class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="To'liq ism"
+                  required
+                  data-form-input
+                />
 
-          <h3 class="h3 form-title">Aloqa Formasi</h3>
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email manzil"
+                  required
+                  data-form-input
+                />
+              </div>
 
-          <form class="form" data-form>
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Sizning xabaringiz"
+                required
+                data-form-input
+              ></textarea>
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="To'liq ism" required data-form-input>
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Xabar Yuborish</span>
+              </button>
+            </form>
 
-              <input type="email" name="email" class="form-input" placeholder="Email manzil" required data-form-input>
+            <div class="form-success" style="display: none">
+              <p>Xabaringiz muvaffaqiyatli yuborildi!</p>
             </div>
+          </section>
+        </article>
+      </div>
+    </main>
 
-            <textarea name="message" class="form-input" placeholder="Sizning xabaringiz" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Xabar Yuborish</span>
-            </button>
-
-          </form>
-
-          <div class="form-success" style="display: none;">
-            <p>Xabaringiz muvaffaqiyatli yuborildi!</p>
-          </div>
-
-        </section>
-
-      </article>
-
-    </div>
-
-  </main>
-
-  <!--
+    <!--
     - custom js link
   -->
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 
-  <!--
+    <!--
     - ionicon link
   -->
     <script src="./api/send-telegram-massage.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<audio id="lamp" src="./img/on.mp3"></audio>
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <audio id="lamp" src="./img/on.mp3"></audio>
+  </body>
 </html>
